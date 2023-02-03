@@ -1,0 +1,182 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+}
+
+#logo-principal{
+	width: 10%;
+	padding: 50px;
+}
+
+nav {
+	position: absolute;
+	top: 50%;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform:uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #f5f901;
+	text-decoration: underline;
+}
+
+#banner {
+	width:100%;
+}
+
+.principal{
+	background: #DDDDDD;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 24px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+}
+
+.utensilios {
+	width: 200px;
+	float: left;
+	margin: 0 0 0 100px;
+}
+
+p {
+	text-align: center;
+}
+
+p strong {
+	font-weight: bold;
+}
+
+#missao {
+	font-size: 18px
+}
+
+em strong {
+	color: #f5f901;
+}
+
+.beneficios {
+	display: inline;
+	background: #FFFFFF;
+	padding: 10px;
+}
+
+.itens {
+	font-size: 18px;
+	vertical-align: top;
+	text-align: leftt;
+	width: 70%;
+	margin: 1.5% 1.5%;
+	padding: 5px 5px;
+}
+
+.itens:before {
+	content: " ★ ";
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.conteudo-beneficios {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 58%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imagem-beneficios {
+	width: 42%;
+	opacity: 0.8;
+	transition: 400ms;
+ }
+
+.imagem-beneficios:hover {
+	width: 42%;
+	opacity: 1;
+ }
+
+.mapa {
+	padding: 3em 0;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	test-align:center;
+}
+
+footer {
+	text-align: center;
+	background: #000000;
+}
+
+.video {
+	width: 100%;
+	margin: 1em auto;
+	margin-bottom: 50;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa, .video {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+
+	#logo-principal{
+	width: 10%;
+	padding: 100px;
+}
+
+	.lista-beneficios, .imagem-beneficios{
+		width: 100%;
+	}
+}
+
+#logo-footer{
+	width: 7%;
+	padding: 50px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 14px;
+}
